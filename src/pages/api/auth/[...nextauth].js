@@ -17,7 +17,7 @@ export const authOptions = {
         };
 
         const resp = await fetch(
-          "https://eu-central-1.aws.services.cloud.mongodb.com/api/client/v2.0/app/data-osxavnp/auth/providers/local-userpass/login",
+          `backendApi/login`,
           {
             method: "POST",
             headers: {
